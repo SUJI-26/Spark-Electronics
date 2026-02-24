@@ -22,7 +22,7 @@ const Types = () => {
         className="flex flex-col justify-center items-end gap-6 bg-cover p-10 rounded-lg"
         style={{ backgroundImage: `url(${banner1})` }}
       >
-        <h1 className="text-themeyellow border-rounded-lg border-themeyellow px-6 py-2 text-lg">
+        <h1 className="text-themeyellow border-rounded-lg border-themeyellow px-6 py-2 text-lg border border-gray-200 rounded-lg p-5">
           60% Off
         </h1>
         <h1 className="text-4xl text-end text-white font-semibold">
@@ -39,11 +39,11 @@ const Types = () => {
         className="flex flex-col justify-center items-end gap-6 bg-cover p-10 rounded-lg"
         style={{ backgroundImage: `url(${banner2})` }}
       >
-        <h1 className="text-themeyellow border-rounded-lg border-themeyellow px-6 py-2 text-lg">
+        <h1 className="text-themeyellow border-rounded-lg border-themeyellow px-6 py-2 text-lg border border-gray-200 rounded-lg p-5">
           60% Off
         </h1>
         <h1 className="text-4xl text-end text-white font-semibold">
-          Wireless <br /> Devices
+        Wired <br /> Earbuds
         </h1>
         <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold">
           SHOP NOW
@@ -56,11 +56,11 @@ const Types = () => {
         className="flex flex-col justify-center items-end gap-6 bg-cover p-10 rounded-lg"
         style={{ backgroundImage: `url(${banner3})` }}
       >
-        <h1 className="text-themeyellow border-rounded-lg border-themeyellow px-6 py-2 text-lg">
+        <h1 className="text-themeyellow border-rounded-lg border-themeyellow px-6 py-2 text-lg border border-gray-200 rounded-lg p-5 ">
           60% Off
         </h1>
         <h1 className="text-4xl text-end text-white font-semibold">
-          Wireless <br /> Devices
+          Smart<br /> Watches
         </h1>
         <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold">
           SHOP NOW
