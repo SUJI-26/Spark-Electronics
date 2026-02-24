@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Custom theme colors for Tailwind v4 */
+@theme {
+  --color-themeyellow: #f5e60d;
+  --color-themepurple: #502ec3;
+
+}
