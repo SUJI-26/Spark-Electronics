@@ -19,53 +19,54 @@ const Category = () => {
 
   return (
     <div
-      id='category'
-      className='w-full bg-gray-100 px-5 pt-[130px] pb-[80px] flex lg:flex-row flex-col justify-center items-center gap-20'
+  id='category'
+  className='w-full bg-gray-100 pt-[130px] pb-[80px]'
+>
+  <div className='max-w-[1400px] mx-auto px-6 lg:px-16 flex lg:flex-row flex-col justify-center items-center gap-20'>
+
+    {/* Left Content */}
+    <div
+      data-aos="zoom-in"
+      data-aos-delay="50"
+      className='lg:w-[15%] w-full flex flex-col justify-center lg:items-start items-center gap-[20px]'
     >
+      <h1 className='text-themepurple text-xl font-semibold text-center'>
+        Favorites item
+      </h1>
 
-      {/* Left Content */}
-      <div
-        data-aos="zoom-in"
-        data-aos-delay="50"
-        className='lg:w-[15%] w-full flex flex-col justify-center lg:items-start items-center gap-[20px]'
-      >
-        <h1 className='text-themepurple text-xl font-semibold text-center'>
-          Favorites item
-        </h1>
+      <h1 className='text-black font-semibold text-[42px] leading-[50px] text-center lg:text-start'>
+        Popular category
+      </h1>
 
-        <h1 className='text-black font-semibold text-[42px] leading-[50px] text-center lg:text-start'>
-          Popular category
-        </h1>
-
-        <button className='bg-themepurple hover:bg-themeyellow text-white hover:text-black px-8 py-3 rounded-lg font-semibold mt-[60px]'>
-          VIEW ALL
-        </button>
-      </div>
-
-      {/* Right Grid */}
-      <div className='lg:w-[85%] w-full grid lg:grid-cols-5 grid-cols-1 gap-10'>
-
-        {[cat1, cat2, cat3, cat4, cat5].map((img, index) => (
-          <div
-            key={index}
-            data-aos="zoom-in"
-            data-aos-delay={100 + index * 50}
-            className='flex flex-col justify-center items-center gap-6'
-          >
-            <img
-              src={img}
-              alt=""
-              className='rounded-full cursor-pointer'
-            />
-            <h1 className='text-black text-xl font-semibold hover:text-themepurple cursor-pointer'>
-              Portable Speakers
-            </h1>
-          </div>
-        ))}
-
-      </div>
-
+      <button className='bg-themepurple hover:bg-themeyellow text-white hover:text-black px-8 py-3 rounded-lg font-semibold mt-[60px]'>
+        VIEW ALL
+      </button>
     </div>
+
+    {/* Right Grid */}
+    <div className='lg:w-[85%] w-full grid lg:grid-cols-5 grid-cols-1 gap-10'>
+      {[cat1, cat2, cat3, cat4, cat5].map((img, index) => (
+        <div
+          key={index}
+          data-aos="zoom-in"
+          data-aos-delay={100 + index * 50}
+          className='flex flex-col justify-center items-center gap-6'
+        >
+          <img
+            src={img}
+            alt=""
+            className='rounded-full cursor-pointer'
+          />
+          <h1 className='text-black text-xl font-semibold hover:text-themepurple cursor-pointer'>
+            Portable Speakers
+          </h1>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</div>
+
   )
 }
 
