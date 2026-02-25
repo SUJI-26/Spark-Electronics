@@ -60,7 +60,7 @@ const Reviews = () => {
         data-aos-delay="100"
         className='text-themepurple text-xl font-semibold capitalize'
       >
-        Testimonials
+        1000+ Customer reviews
       </h1>
 
       <h1
@@ -80,7 +80,7 @@ const Reviews = () => {
 
           {reviewdata.map((item, index) => (
             <div key={index}>
-              <div className='w-full flex flex-col justify-center items-center gap-4 lg:p-10 p-5 bg-white rounded-lg shadow-sm'>
+              <div className='w-full flex flex-col justify-center items-center gap-4 lg:p-10 p-5 bg-white rounded-lg shadow-sm Testimonials cursor-pointer'>
 
                 <img
                   src={item.img}

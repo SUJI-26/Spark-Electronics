@@ -13,10 +13,11 @@ const ProductsGrid = () => {
       duration: 500,
       easing: "ease-in-out",
     });
+    AOS.refresh()
   }, []);
 
   return (
-    <div
+    <div  data-aos="zoom-in" data-aos-delay="100"
       id="products"
       className="w-full lg:px-20 px-5 py-[80px] bg-gray-100 flex flex-col justify-center items-center gap-4"
     >
@@ -29,7 +30,7 @@ const ProductsGrid = () => {
         Trending Products
       </h1>
 
-      <div className="w-full grid lg:grid-cols-4 grid-cols-1 gap-10 mt-10">
+      <div  data-aos="zoom-in" data-aos-delay="300"  className="w-full grid lg:grid-cols-4 grid-cols-1 gap-10 mt-10">
 
         {products.map((item, index) => (
           <div
@@ -93,7 +94,7 @@ const ProductsGrid = () => {
 
       </div>
 
-      <button className="bg-themepurple hover:bg-themeyellow text-white hover:text-black font-semibold px-8 py-3 rounded-lg mt-8">
+      <button className="bg-themepurple hover:bg-themeyellow text-white hover:text-black font-semibold px-8 py-3 rounded-lg mt-8 cursor-pointer">
         VIEW MORE
       </button>
 

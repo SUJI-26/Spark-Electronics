@@ -47,7 +47,7 @@ const Category = () => {
             Popular category
           </h1>
 
-          <button className='bg-themepurple hover:bg-themeyellow text-white hover:text-black px-8 py-3 rounded-lg font-semibold mt-[60px]'>
+          <button className='bg-themepurple hover:bg-themeyellow text-white hover:text-black px-8 py-3 rounded-lg font-semibold mt-[60px] cursor-pointer'>
             VIEW ALL
           </button>
         </div>

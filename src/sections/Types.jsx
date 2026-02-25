@@ -28,7 +28,7 @@ const Types = () => {
         <h1 className="text-4xl text-end text-white font-semibold">
           Wireless <br /> Devices
         </h1>
-        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold">
+        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold cursor-pointer">
           SHOP NOW
         </button>
       </div>
@@ -45,7 +45,7 @@ const Types = () => {
         <h1 className="text-4xl text-end text-white font-semibold">
         Wired <br /> Earbuds
         </h1>
-        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold">
+        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold cursor-pointer">
           SHOP NOW
         </button>
       </div>
@@ -62,7 +62,7 @@ const Types = () => {
         <h1 className="text-4xl text-end text-white font-semibold">
           Smart<br /> Watches
         </h1>
-        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold">
+        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold cursor-pointer">
           SHOP NOW
         </button>
       </div>
