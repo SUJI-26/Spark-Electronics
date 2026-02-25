@@ -4,7 +4,7 @@ import Footer from "./sections/Footer"
 import Header from "./sections/Header"
 import Hero from "./sections/Hero"
 import Insta from "./sections/Insta"
-import Productsgrid from "./sections/Productsgrid"
+import ProductsGrid from "./sections/Productsgrid"
 import Reviews from "./sections/Reviews"
 import Services from "./sections/Services"
 import Types from "./sections/Types"
@@ -17,7 +17,7 @@ function App() {
     <Category />
     <Types />
     <Services />
-    <Productsgrid />
+    <ProductsGrid />
     <Banner />
     <Reviews />
     <Insta />

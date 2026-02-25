@@ -6,3 +6,10 @@
   --color-themepurple: #502ec3;
 
 }
+#icon {
+  display: none;
+}
+
+#product-box:hover #icon {
+  display: flex !important;
+}
