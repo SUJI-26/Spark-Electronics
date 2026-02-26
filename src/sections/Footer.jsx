@@ -57,31 +57,85 @@ const Footer = () => {
           {/* USEFUL LINKS */}
           <div>
             <h2 className="text-xl font-semibold mb-6">Useful Links</h2>
+
             <ul className="flex flex-col gap-3 text-gray-500">
-              <li className="hover:text-black cursor-pointer transition">
-                Home
+              <li>
+                <Link
+                  to="hero"
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="hover:text-black cursor-pointer transition"
+                >
+                  Home
+                </Link>
               </li>
-              <li className="hover:text-black cursor-pointer transition">
-                About
+
+              <li>
+                <Link
+                  to="about"
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="hover:text-black cursor-pointer transition"
+                >
+                  About
+                </Link>
               </li>
-              <li className="hover:text-black cursor-pointer transition">
-                Services
+
+              <li>
+                <Link
+                  to="products"
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="hover:text-black cursor-pointer transition"
+                >
+                  Services
+                </Link>
               </li>
-              <li className="hover:text-black cursor-pointer transition">
-                Blogs
+
+              <li>
+                <Link
+                  to="blogs"
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="hover:text-black cursor-pointer transition"
+                >
+                  Blogs
+                </Link>
               </li>
-              <li className="hover:text-black cursor-pointer transition">
-                Contact
+
+              <li>
+                <Link
+                  to="contact"
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="hover:text-black cursor-pointer transition"
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
 
           {/* INFORMATION */}
           <div>
+            {" "}
             <h2 className="text-xl font-semibold mb-6">Information</h2>
             <ul className="flex flex-col gap-3 text-gray-500">
-              <li className="hover:text-black cursor-pointer transition">
-                Return Policy
+              <li>
+                <Link
+                  to="hero"
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="hover:text-black cursor-pointer transition"
+                >
+                  Return Policy
+                </Link>
               </li>
               <li className="hover:text-black cursor-pointer transition">
                 Privacy Policy
