@@ -46,9 +46,6 @@ const Services = () => {
       <p className='text-[17px] text-gray-500'>Lorem ipsum dolor sit amet.</p>
       </div>
 
-
-
-
     </div>
   )
 }
