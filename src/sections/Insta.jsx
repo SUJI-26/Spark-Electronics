@@ -60,7 +60,7 @@ const Insta = () => {
         data-aos-delay="400"
         className="bg-themepurple hover:bg-themeyellow text-white hover:text-black font-semibold px-8 py-3 rounded-lg mt-12 uppercase cursor-pointer"
       >
-        #ElectraShop
+        #ElectroMart
       </button>
 
     </div>
