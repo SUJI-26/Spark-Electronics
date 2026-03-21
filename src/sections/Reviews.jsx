@@ -89,7 +89,6 @@ const Reviews = () => {
                   alt={item.name}
                   className='rounded-full w-[100px]'
                 />
-
                 <div className='flex justify-center gap-1'>
                   <FaStar className='text-themepurple' />
                   <FaStar className='text-themepurple' />
