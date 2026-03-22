@@ -62,7 +62,7 @@ const Reviews = () => {
         data-aos-delay="100"
         className='text-themepurple text-xl font-semibold capitalize'
       >
-        1000+ Customer reviews
+        10000+ Customer reviews
       </h1>
 
       <h1
